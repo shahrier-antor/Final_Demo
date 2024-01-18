@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* font added from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+body {
+  margin: 0;
+  /* font-family: 'Montserrat', sans-serif !important; */
+  font-family: 'Patua One', cursive !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 251, 251, 0.99);
+  background-image: url("antor5.jpg");
+  
+}
+
+body,
+html {
+  overflow-x: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bs1 {
+  /* box shadow from css scan */
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+
+
+}
+
+.ant-row {
+  margin: 0 20 !important;
+}
+
+/* class for spinner. The Spinner will be in middle .*/
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(243, 95, 15, 0.973);
+}
+
+h3 {
+  font-size: 30px;
+  color: rgb(0, 238, 255) !important;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.519);
+}
+
+
+/* class for every paragraph !! */
+p {
+  margin: 5px !important;
+
+  padding: 0;
+}
+
+/* only two types of button will be used !! Here the class is for Button 1 !! */
+.btn1 {
+  box-shadow: none !important;
+  background-color: rgb(245, 236, 236) !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+
+/* What happens to button after focusing*/
+.bt1:focus {
+  border: none;
+}
+
+button {
+  padding: 3px 10px !important;
+}
+
+.header {
+  padding: 20px;
+
+}
+
+.header .ant-btn {
+  box-shadow: none !important;
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(255, 147, 6) !important;
+  border: 1px solid orangered !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+
+.content {
+  min-height: 80vh;
+
+}
+
+.footer {
+  /* background-color: aliceblue; */
+  padding: 15px;
+}
+
+
+/* this is just for ui purpose , no functionality is related */
+
+
+.car {
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.3s;
+}
+
+/* What happens to the main car style after hovering*/
+.car:hover {
+  height: 240px;
+}
+
+/* What happens to the main car contents i.e the descriptions  after hovering*/
+.car:hover>.car-content {
+
+  opacity: 1;
+  transform: translateY(-40px)
+}
+
+/*the style for carimage*/
+.carimg {
+  height: 180px;
+  width: 270px;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+
+/*style for car contents*/
+.car-content {
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* Main login style*/
+.login {
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+/*for login's labels and h1 headers*/
+.login label,
+.login h1 {
+  color: white !important;
+  opacity: 0.6;
+}
+
+.login h2{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 68%;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  font-size: 19px;
+  color: white !important;
+  /* color: rgb(0, 238, 255) !important; */
+  opacity: 0.4;
+  font-weight: bold; 
+}
+/*style of login form*/
+.login-form {
+  background-color: #1F1F1F;
+}
+
+/* for login-form's input*/
+.login-form input {
+  background-color: #3c3b3b !important;
+  border: none !important;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+/*for the logo Gari lagbe!!*/
+.login-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  bottom: 50%;
+  transform: translateY(-50%, -50%);
+  font-size: 45px;
+  opacity: 0.4 !important;
+}
+
+/*anchor tag for login style*/
+.login a {
+  color: white !important;
+  opacity: 0.5;
+}
+
+.carimg2 {
+  height: 400px;
+  border-radius: 10px;
+  width: auto;
+}
+
+svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+a {
+  /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+  color: rgb(0, 238, 255) !important;
+  /* background-color: rgba(0, 0, 0, 0.505); */
+}
+
+.text1 {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  color: rgb(0, 238, 255) !important;
+  background-color: rgba(0, 0, 0, 0.505);
+}
+.text1 label {
+
+  border: none !important;
+  color: rgb(0, 238, 255) !important;
+  opacity: 0.98;
+}
+
+.text1 input {
+  background-color: #3c3b3b30 !important;
+  border: none !important;
+  color: rgb(255, 255, 255);
+  opacity: 0.9;
+}
+.text2 {
+  color: rgb(0, 238, 255) !important;
+  background-color: rgba(0, 0, 0, 0.338);
+}
+
+.text3 {
+  color: rgb(0, 238, 255) !important;
+  background-color: rgba(0, 0, 0, 0.458) !important;
+}
+.text4 {
+  color: rgb(0, 238, 255) !important;
+  background-color: rgba(0, 0, 0, 0.519);
+}
+.text5 {
+    font-size: 19px;
+    color: white !important;
+    /* color: rgb(0, 238, 255) !important; */
+    opacity: 0.66 !important;
+    font-weight: bold;
+}
+.text7 {
+  font-size: 14px;
+  color: rgb(253, 6, 6) !important;
+  background-color: rgba(0, 0, 0, 0.519) !important;
+}
+.text6{
+  position: absolute;
+    left: 0;
+    right: 0;
+    top: 68%;
+    bottom: 50%;
+    transform: translateY(-50%, -50%);
+    font-size: 19px;
+      color: white !important;
+      /* color: rgb(0, 238, 255) !important; */
+      opacity: 0.66 !important;
+      font-weight: bold;
+}
+
+.btn2 {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background-color: rgba(0, 0, 0, 0.478);
+  color: rgb(0, 238, 255) !important;
+}
+
+.btn3 {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background-color: rgba(0, 0, 0, 0.478);
+  color: rgb(0, 238, 255) !important;
+  height: 40px;
+  width: 100px;
+}
+
+.btn4 {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background-color: rgba(0, 0, 0, 0.478);
+  color: rgb(0, 238, 255) !important;
+  height: auto;
+  width: auto;
+}
